@@ -1,0 +1,98 @@
+.corpoHome {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 220px;
+    padding-right: 110px;
+}
+
+img:hover {
+    transition: all 1s;
+    transform: scale(1.1);
+}
+
+.divCentralImg {
+    width: 710px;
+    height: 470px;
+    margin-left: 70px;
+}
+
+.imgHome {
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    margin-right: 35px;
+    transition: all 1s;
+}
+
+.divCentralText {
+    margin-top: 65px;
+    margin-left: 65px;
+    width: 100%;
+    max-width: 600px;
+    min-width: 300px;
+}
+
+.centralText {
+    font-size: 24px;
+    margin-left: 15px;
+    line-height: 150%;
+}
+
+.greenCentralText {
+    color: #66FF66;
+}
+
+.caixaSkills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.caixaSkills span {
+    font-size: 52px;
+    color: #66FF66;
+}
+
+/* ----------- MEDIA QUERY -------------- */
+
+@media screen and (max-width: 1025px) {
+
+    .caixaSkills {
+        display:none;
+    }
+
+    .corpoHome {
+        display: block;
+    }
+
+    .divCentralImg {
+        width: 550px;
+        margin-left: 50px;
+        height: 370px;
+    }
+
+    .divCentralImg {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .imgHome {
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    .corpoHome {
+        display: block;
+        padding-top: 165px;
+    }
+
+    .divCentralImg {
+        width: 100% !important;
+        margin-left: 12px !important;
+    }
+}
