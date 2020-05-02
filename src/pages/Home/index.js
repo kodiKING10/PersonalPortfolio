@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 
 import './styles.css';
-import imgHome from '../../assets/imgHome.jpg';
 import Header from '../../components/Header.js';
 import Footer from '../../components/Footer.js';
 import { CSSTransitionGroup } from 'react-transition-group';
@@ -10,7 +9,7 @@ export default function Home() {
 
     const [ArrNames, setArrNames] = useState("");
     var counter = 0;
-    var limitCounter = 3;
+    var limitCounter = 4;
     var names = ['C#', '.NET Core', 'SQL Server', 'Node.js', 'React.js'];
 
         function changeSkill()
@@ -23,21 +22,18 @@ export default function Home() {
             } else { 
                 counter++;
             }
-            setTimeout(changeSkill, 4500);
+            setTimeout(changeSkill, 2500);
         }
         
     return(
-        <div onLoad={() => changeSkill()} id="container" className="container">
+        <div onLoad={() => changeSkill()} className="container">
 
             <Header />
 
             <section>
                 <div className="corpoHome">
-                    <div className="divCentralImg">
-                        <img className="imgHome" alt="foto" src={imgHome}/>
-                    </div>
                     <div className="divCentralText">
-                        <p className="centralText">Hello, I'm <span className="greenCentralText">Henrique Cavalcante</span> a FullStack Developer, Currently Based in São Paulo.</p>
+                        <p className="centralText">Welcome to my portfolio, I'm <span className="greenCentralText">Henrique Cavalcante Veiga</span> a FullStack Developer Currently Based in Brazil, São Paulo.</p>
                     </div>
                 </div>
             </section> 
@@ -45,7 +41,7 @@ export default function Home() {
             <Footer />
 
             <div className="caixaSkills">
-                 <span id="skills"> {ArrNames} </span>   
+                 <span id="skills">{ArrNames}</span>   
             </div>  
         </div>         
     );  

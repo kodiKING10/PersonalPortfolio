@@ -13,7 +13,7 @@
 }
 
 body{
-    background: linear-gradient(90deg, #1A1A1A  0.2%, transparent 0.10%) 1px 0, #101010;
+    background: linear-gradient(90deg, #1A1A1A  0.2%, transparent 0.10%) 1px 0, #0d0d0d;
     background-size: 390px 1px;
     font: 400 14px Roboto, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -146,9 +146,9 @@ a:hover {
 /* ----------- MEDIA QUERY -------------- */
 
 @media screen and (max-width: 1295px) {
-    .footerSocialMedia {
+    /* .footerSocialMedia {
         display:none !important;
-    }
+    } */
 }
 
 @media screen and (max-width: 1025px) {
@@ -157,18 +157,8 @@ a:hover {
         padding-top: 190px;
     }
 
-    .footerEmailTel {
-        position: relative !important;
-        line-height: 250%;
-        display: grid;
-        justify-content: center;
-        margin-top: 40px;
-        bottom: 0px !important;
-        left: 0px !important;
-    }
-
     .footerSocialMedia {
-        display:none;
+        display:none !important;
     }
 
     .menuDesktop {
@@ -229,7 +219,14 @@ a:hover {
     }
 
     .footerEmailTel {
-        margin-top: 40px;
+        position: relative !important;
+        line-height: 250%;
+        display: grid;
+        justify-content: center;
+        margin-top: 95px;
+        bottom: 0px !important;
+        left: 0px !important;
+        margin-top: 80px;
         margin-bottom: 40px;
     }
 }
