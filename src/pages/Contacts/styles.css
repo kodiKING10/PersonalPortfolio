@@ -1,0 +1,87 @@
+.wrapper {
+    display: inline-flex;
+    margin-left: 252px;
+    margin-top: 270px;
+}
+
+.screenPath {
+    position: absolute;
+    top: 220px;
+    left: 422px;
+}
+
+.screenPathText {
+    font-size: 22px;
+}
+
+.wrapperContact {
+    width: 100%;
+    display: inline-grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxContact {
+    background-color: #0d0d0d;
+    width: 470px !important;
+    height: 200px !important;
+    border: solid 0.5px #1a1a1a;
+    margin-left: 170px;
+    border-radius: 0px;
+    cursor: pointer; 
+    box-shadow: inset 0 0 0 0 #66FF99;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
+
+.boxContact:hover {
+    background-color: #66ff99;
+    box-shadow: inset 0 0 0 50px #66FF99;
+}
+
+.boxContact-lower {
+    background-color: #0d0d0d;
+    width: 470px !important;
+    height: 200px !important;
+    border: solid 0.5px #1a1a1a;
+    margin-top: 50px;
+    margin-left: 170px;
+    border-radius: 0px;
+    cursor: pointer; 
+    box-shadow: inset 0 0 0 0 #66FF99;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
+
+.boxContact-lower:hover {
+    background-color: #66ff99;
+    box-shadow: inset 0 0 0 50px #66FF99;
+}
+
+.boxContact p {
+    text-align: center;
+}
+
+.boxContact-lower p {
+    text-align: center;
+}
+
+.infoContact {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.textContact {
+    line-height: 2;
+}
+
+.titleContact {
+    font-size: 17px;
+}
+
+.descriptionContact {
+    font-size: 15px;
+}
