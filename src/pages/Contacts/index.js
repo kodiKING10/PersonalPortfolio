@@ -1,4 +1,5 @@
 import React from 'react';
+import $ from 'jquery';
 
 import './styles.css';
 import Header from '../../../src/components/Header.js';
@@ -12,31 +13,50 @@ export default function Contacts(){
 
     function mudarCor(contactType) {
 
-        if(contactType === "phone")
+        if(contactType === "phone"){
             document.getElementById('imgPhoneGreen').style.filter = "brightness(20%)";
+            $('#titlePhoneGreen').css('color',' #0D0D0D');
+            $('#descriptionPhoneGreen').css('color',' #0D0D0D');
+        }
         
-        if(contactType === "address")
+        if(contactType === "address"){
             document.getElementById('imgAddressGreen').style.filter = "brightness(20%)";
-        
-        if(contactType === "email")
-            document.getElementById('imgEmailGreen').style.filter = "brightness(20%)"; 
-        
-        if(contactType === "linkedin")
-            document.getElementById('imgLinkedinGreen').style.filter = "brightness(20%)";        
+            $('#titleAddressGreen').css('color',' #0D0D0D');
+            $('#descriptionAddressGreen').css('color',' #0D0D0D');
+        }
+        if(contactType === "email"){
+            document.getElementById('imgEmailGreen').style.filter = "brightness(20%)";
+            $('#titleEmailGreen').css('color',' #0D0D0D');
+            $('#descriptionEmailGreen').css('color',' #0D0D0D'); 
+        }
+        if(contactType === "linkedin"){
+            document.getElementById('imgLinkedinGreen').style.filter = "brightness(20%)";
+            $('#titleLinkedinGreen').css('color',' #0D0D0D');
+            $('#descriptionLinkedinGreen').css('color',' #0D0D0D');  
+        }         
     }
 
     function mudarCorNormal(contactType) {
-        if(contactType === "phone")
+        if(contactType === "phone"){
             document.getElementById('imgPhoneGreen').style.filter = "initial";
-        
-        if(contactType === "address")
+            $('#titlePhoneGreen').css('color',' #FFF');
+            $('#descriptionPhoneGreen').css('color',' #FFF');
+        }
+        if(contactType === "address"){
             document.getElementById('imgAddressGreen').style.filter = "initial";
-        
-        if(contactType === "email")
-            document.getElementById('imgEmailGreen').style.filter = "initial"; 
-        
-        if(contactType === "linkedin")
-            document.getElementById('imgLinkedinGreen').style.filter = "initial";   
+            $('#titleAddressGreen').css('color',' #FFF');
+            $('#descriptionAddressGreen').css('color',' #FFF');
+        }
+        if(contactType === "email"){
+            document.getElementById('imgEmailGreen').style.filter = "initial";
+            $('#titleEmailGreen').css('color',' #FFF');
+            $('#descriptionEmailGreen').css('color',' #FFF'); 
+        }
+        if(contactType === "linkedin"){
+            document.getElementById('imgLinkedinGreen').style.filter = "initial"; 
+            $('#titleLinkedinGreen').css('color',' #FFF');
+            $('#descriptionLinkedinGreen').css('color',' #FFF');
+        }      
     }
 
     return (
@@ -48,7 +68,7 @@ export default function Contacts(){
             <div className="wrapper">
                 <div className="wrapperContact">
 
-                    <div className="boxContact" onMouseOver={() => mudarCor('phone')} onMouseOut={() => mudarCorNormal('phone')} >
+                    <div className="boxContact" onMouseEnter={() => mudarCor('phone')} onMouseLeave={() => mudarCorNormal('phone')} >
                         <div className="iconTel"><img id="imgPhoneGreen" src={imgphoneGreen} alt="phoneGreen"></img></div>
 
                         <div className="infoContact">
@@ -68,8 +88,8 @@ export default function Contacts(){
                         <div className="infoContact">
 
                             <div className="textContact">
-                                <p className="titleContact">Address</p>
-                                <p className="descriptionContact">São Paulo - SP , Brazil</p>
+                                <p id="titleAddressGreen" className="titleContact">Address</p>
+                                <p id="descriptionAddressGreen" className="descriptionContact">São Paulo - SP , Brazil</p>
                             </div>
 
                         </div>
@@ -86,8 +106,8 @@ export default function Contacts(){
                         <div className="infoContact">
 
                             <div className="textContact">
-                                <p className="titleContact">E-mail</p>
-                                <p className="descriptionContact">hencavalcante99@gmail.com</p>
+                                <p id="titleEmailGreen" className="titleContact">E-mail</p>
+                                <p id="descriptionEmailGreen" className="descriptionContact">hencavalcante99@gmail.com</p>
                             </div>
 
                         </div>
@@ -103,8 +123,8 @@ export default function Contacts(){
                             <div className="iconEmail"></div>
 
                             <div className="textContact">
-                                <p className="titleContact">LinkedIn</p>
-                                <p className="descriptionContact">Henrique Cavalcante Veiga</p>
+                                <p id="titleLinkedinGreen" className="titleContact">LinkedIn</p>
+                                <p id="descriptionLinkedinGreen" className="descriptionContact">Henrique Cavalcante Veiga</p>
                             </div>
 
                         </div>
