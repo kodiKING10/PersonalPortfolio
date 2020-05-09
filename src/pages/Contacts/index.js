@@ -65,70 +65,73 @@ export default function Contacts(){
             <Header />
 
             <div className="screenPath"><p className="screenPathText">Home / Contacts</p></div>
-            <div className="wrapper">
-                <div className="wrapperContact">
 
-                    <div className="boxContact" onMouseEnter={() => mudarCor('phone')} onMouseLeave={() => mudarCorNormal('phone')} >
-                        <div className="iconTel"><img id="imgPhoneGreen" src={imgphoneGreen} alt="phoneGreen"></img></div>
+            <div className="centralizingWrapper">
+                <div className="wrapper">
+                    <div className="wrapperContact">
 
-                        <div className="infoContact">
+                        <div className="boxContact" onMouseEnter={() => mudarCor('phone')} onMouseLeave={() => mudarCorNormal('phone')} >
+                            <div className="iconTel"><img id="imgPhoneGreen" src={imgphoneGreen} alt="phoneGreen"></img></div>
 
-                            <div className="textContact">
-                                <p id="titlePhoneGreen" className="titleContact">Cell Phone</p>
-                                <p id="descriptionPhoneGreen" className="descriptionContact">+55 (11) 98237-1115</p>
+                            <div className="infoContact">
+
+                                <div className="textContact">
+                                    <p id="titlePhoneGreen" className="titleContact">Cell Phone</p>
+                                    <p id="descriptionPhoneGreen" className="descriptionContact">+55 (11) 98237-1115</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div className="boxContact-lower" onMouseOver={() => mudarCor('address')} onMouseOut={() => mudarCorNormal('address')}>
+
+                        <div className="iconTel"><img id="imgAddressGreen" src={imgAddressGreen} alt="imgAddressGreen"></img></div>
+
+                            <div className="infoContact">
+
+                                <div className="textContact">
+                                    <p id="titleAddressGreen" className="titleContact">Address</p>
+                                    <p id="descriptionAddressGreen" className="descriptionContact">São Paulo - SP , Brazil</p>
+                                </div>
+
                             </div>
 
                         </div>
 
-                    </div>
-                    <div className="boxContact-lower" onMouseOver={() => mudarCor('address')} onMouseOut={() => mudarCorNormal('address')}>
+                    </div>  
 
-                    <div className="iconTel"><img id="imgAddressGreen" src={imgAddressGreen} alt="imgAddressGreen"></img></div>
+                    <div className="wrapperContact">
+                        <div className="boxContact" onMouseOver={() => mudarCor('email')} onMouseOut={() => mudarCorNormal('email')}>
 
-                        <div className="infoContact">
+                        <div className="iconTel"><img id="imgEmailGreen" src={imgEmailGreen} alt="imgEmailGreen"></img></div>
 
-                            <div className="textContact">
-                                <p id="titleAddressGreen" className="titleContact">Address</p>
-                                <p id="descriptionAddressGreen" className="descriptionContact">São Paulo - SP , Brazil</p>
+                            <div className="infoContact">
+
+                                <div className="textContact">
+                                    <p id="titleEmailGreen" className="titleContact">E-mail</p>
+                                    <p id="descriptionEmailGreen" className="descriptionContact">hencavalcante99@gmail.com</p>
+                                </div>
+
                             </div>
 
                         </div>
 
-                    </div>
+                        <div className="boxContact-lower" onMouseOver={() => mudarCor('linkedin')} onMouseOut={() => mudarCorNormal('linkedin')}>
 
-                </div>  
+                            <div className="iconTel"><img id="imgLinkedinGreen" src={imgLinkedinGreen} alt="imgLinkedinGreen"></img></div>
 
-                <div className="wrapperContact">
-                    <div className="boxContact" onMouseOver={() => mudarCor('email')} onMouseOut={() => mudarCorNormal('email')}>
+                            <div className="infoContact">
 
-                    <div className="iconTel"><img id="imgEmailGreen" src={imgEmailGreen} alt="imgEmailGreen"></img></div>
+                                <div className="iconEmail"></div>
 
-                        <div className="infoContact">
+                                <div className="textContact">
+                                    <p id="titleLinkedinGreen" className="titleContact">LinkedIn</p>
+                                    <p id="descriptionLinkedinGreen" className="descriptionContact">Henrique Cavalcante Veiga</p>
+                                </div>
 
-                            <div className="textContact">
-                                <p id="titleEmailGreen" className="titleContact">E-mail</p>
-                                <p id="descriptionEmailGreen" className="descriptionContact">hencavalcante99@gmail.com</p>
                             </div>
 
                         </div>
-
-                    </div>
-
-                    <div className="boxContact-lower" onMouseOver={() => mudarCor('linkedin')} onMouseOut={() => mudarCorNormal('linkedin')}>
-
-                        <div className="iconTel"><img id="imgLinkedinGreen" src={imgLinkedinGreen} alt="imgLinkedinGreen"></img></div>
-
-                        <div className="infoContact">
-
-                            <div className="iconEmail"></div>
-
-                            <div className="textContact">
-                                <p id="titleLinkedinGreen" className="titleContact">LinkedIn</p>
-                                <p id="descriptionLinkedinGreen" className="descriptionContact">Henrique Cavalcante Veiga</p>
-                            </div>
-
-                        </div>
-
                     </div>
                 </div>
             </div>    

@@ -13,7 +13,7 @@
 }
 
 body{
-    background: linear-gradient(90deg, #1A1A1A  0.2%, transparent 0.10%) 1px 0, #0d0d0d;
+    background: linear-gradient(90deg, #1A1A1A  0.2%, transparent 0.10%) -5px , #0d0d0d;
     background-size: 390px 1px;
     font: 400 14px Roboto, sans-serif;
     -webkit-font-smoothing: antialiased;

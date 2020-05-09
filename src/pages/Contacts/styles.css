@@ -1,6 +1,12 @@
+.centralizingWrapper {
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 190px;
+}
+
 .wrapper {
     display: inline-flex;
-    margin-left: 252px;
     margin-top: 270px;
 }
 
@@ -116,4 +122,8 @@
     width: 45px;
     height: 45px;
     transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 1025px) {
+    
 }
