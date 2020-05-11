@@ -3,11 +3,13 @@ import $ from 'jquery';
 
 import './styles.css';
 import Header from '../../../src/components/Header.js';
-import Footer from '../../../src/components/Footer.js';
 import imgphoneGreen from '../../assets/cellphoneVerde.png';
 import imgEmailGreen from '../../assets/emailVerde.png';
 import imgAddressGreen from '../../assets/addressVerde.png';
 import imgLinkedinGreen from '../../assets/linkedInVerde.png';
+import imgGooglePlus from '../../../src/assets/google-plus.png';
+import imgLinkedin from '../../../src/assets/linkedin.png';
+import imgWhatsapp from '../../../src/assets/whatsapp.png';
 
 export default function Contacts(){
 
@@ -135,8 +137,29 @@ export default function Contacts(){
                     </div>
                 </div>
             </div>    
+
+            {/* N utilizei o componente pq ele buga o responsivo ta tela home centralizando o footer de la no momento de tela errado */}
             
-            <Footer />
+            <footer>
+                <div id="footerContact" className="footerEmailTel">
+                        <p className="email">hencavalcante99@gmail.com</p>
+                        <p className="telefone">+55 (11) 98237-1115</p>
+                </div>
+
+                <div className="footerSocialMedia">
+
+                    <div className="footerTextSocialMedia">
+                        <p>Social Media<span className="indicator"></span></p>
+                    </div>    
+
+                    <div className="imgSocialMedia">
+                        <img  src={imgWhatsapp} alt="w"/>
+                        <img  src={imgLinkedin} alt="L"/>
+                        <img  src={imgGooglePlus} alt="G"/>
+                    </div>
+
+                </div>
+            </footer>
         </div>
     );
 }

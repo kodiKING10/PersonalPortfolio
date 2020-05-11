@@ -22,7 +22,7 @@ export default function Home() {
             } else { 
                 counter++;
             }
-            setTimeout(changeSkill, 2500);
+            setTimeout(changeSkill, 3500);
         }
         
     return(

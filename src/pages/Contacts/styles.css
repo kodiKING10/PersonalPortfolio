@@ -7,13 +7,24 @@
 
 .wrapper {
     display: inline-flex;
-    margin-top: 270px;
+    margin-top: 0px;
+}
+
+.container {
+    max-height: 680px;
 }
 
 .screenPath {
-    position: absolute;
-    top: 220px;
-    left: 422px;
+    position: relative;
+    /* top: 220px; */
+    /* left: 422px; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 35px;
+    margin-left: 10px;
 }
 
 .screenPathText {
@@ -124,6 +135,20 @@
     transition: all 0.3s ease-in-out;
 }
 
-@media screen and (max-width: 1025px) {
-    
+@media screen and (max-width: 1600px) {
+    .footerSocialMedia {
+        display:none !important;
+    } 
+
+    #footerContact {
+        position: relative !important;
+        line-height: 250%;
+        display: grid;
+        justify-content: center;
+        margin-top: 95px;
+        bottom: 0px !important;
+        left: 0px !important;
+        margin-top: 65px;
+        margin-bottom: 40px;
+    }
 }
