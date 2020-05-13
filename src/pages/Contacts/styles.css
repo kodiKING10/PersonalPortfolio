@@ -152,3 +152,14 @@
         margin-bottom: 40px;
     }
 }
+
+@media screen and (max-width: 1180px) {
+    .wrapper {
+        display: block;
+    }
+
+    #emailBox {
+        margin-top: 50px;
+    }
+}
+

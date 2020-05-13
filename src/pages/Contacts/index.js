@@ -103,9 +103,9 @@ export default function Contacts(){
                     </div>  
 
                     <div className="wrapperContact">
-                        <div className="boxContact" onMouseOver={() => mudarCor('email')} onMouseOut={() => mudarCorNormal('email')}>
+                        <div id="emailBox" className="boxContact" onMouseOver={() => mudarCor('email')} onMouseOut={() => mudarCorNormal('email')}>
 
-                        <div className="iconTel"><img id="imgEmailGreen" src={imgEmailGreen} alt="imgEmailGreen"></img></div>
+                            <div className="iconTel"><img id="imgEmailGreen" src={imgEmailGreen} alt="imgEmailGreen"></img></div>
 
                             <div className="infoContact">
 
