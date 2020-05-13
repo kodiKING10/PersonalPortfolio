@@ -1,32 +1,13 @@
-import React, { useState } from 'react';
-
+import React from 'react';
 import './styles.css';
 import Header from '../../components/Header.js';
 import Footer from '../../components/Footer.js';
-import { CSSTransitionGroup } from 'react-transition-group';
+import TypeSkills from '../../components/TypeSkills.js';
 
 export default function Home() {
-
-    const [ArrNames, setArrNames] = useState("");
-    var counter = 0;
-    var limitCounter = 4;
-    var names = ['C#', '.NET Core', 'SQL Server', 'Node.js', 'React.js'];
-
-        function changeSkill()
-        {
-            setArrNames("");
-            setArrNames(names[counter]);
-            
-            if(counter >= limitCounter){
-                counter = 0;
-            } else { 
-                counter++;
-            }
-            setTimeout(changeSkill, 3500);
-        }
         
     return(
-        <div onLoad={() => changeSkill()} className="container">
+        <div className="container">
 
             <Header />
 
@@ -41,8 +22,8 @@ export default function Home() {
             <Footer />
 
             <div className="caixaSkills">
-                 <span id="skills">{ArrNames}</span>   
+                <TypeSkills />
             </div>  
         </div>         
-    );  
+    );   
 }
