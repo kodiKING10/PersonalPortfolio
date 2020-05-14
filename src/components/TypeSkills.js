@@ -4,7 +4,7 @@ import ReactTypingEffect from 'react-typing-effect';
 export default function TypeSkills(){
     return(
         <ReactTypingEffect
-            text={['C#', '.NET Core', 'SQL Server', 'Javascript', 'Node.js', 'React.js']}
+            text={['HTML5','CSS3', 'C#', 'Javascript', 'Node.js', 'React.js','SQL Server']}
             loop={true}
             speed="150"
             eraseDelay="1500"

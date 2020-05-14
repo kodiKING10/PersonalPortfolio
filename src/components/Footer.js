@@ -2,6 +2,7 @@ import React from 'react';
 import imgGooglePlus from '../../src/assets/google-plus.png';
 import imgLinkedin from '../../src/assets/linkedin.png';
 import imgWhatsapp from '../../src/assets/whatsapp.png';
+import { Link } from 'react-router-dom';
 
 function Footer(){
     return (
@@ -18,9 +19,9 @@ function Footer(){
                 </div>    
 
                 <div className="imgSocialMedia">
-                    <img  src={imgWhatsapp} alt="w"/>
-                    <img  src={imgLinkedin} alt="L"/>
-                    <img  src={imgGooglePlus} alt="G"/>
+                    <Link to="/contacts" ><img  src={imgWhatsapp} alt="w"/></Link>
+                    <Link to="/contacts" ><img  src={imgLinkedin} alt="L"/></Link>
+                    <Link to="/contacts" ><img  src={imgGooglePlus} alt="G"/></Link>
                 </div>
 
             </div>

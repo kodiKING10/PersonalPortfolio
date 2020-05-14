@@ -72,7 +72,7 @@ export default function Contacts(){
                 <div className="wrapper">
                     <div className="wrapperContact">
 
-                        <div className="boxContact" onMouseEnter={() => mudarCor('phone')} onMouseLeave={() => mudarCorNormal('phone')} >
+                        <a href="https://api.whatsapp.com/send?phone=5511982371115" target="_blank" rel="noopener noreferrer" className="boxContact" onMouseEnter={() => mudarCor('phone')} onMouseLeave={() => mudarCorNormal('phone')} >
                             <div className="iconTel"><img id="imgPhoneGreen" src={imgphoneGreen} alt="phoneGreen"></img></div>
 
                             <div className="infoContact">
@@ -84,7 +84,7 @@ export default function Contacts(){
 
                             </div>
 
-                        </div>
+                        </a>
                         <div className="boxContact-lower" onMouseOver={() => mudarCor('address')} onMouseOut={() => mudarCorNormal('address')}>
 
                         <div className="iconTel"><img id="imgAddressGreen" src={imgAddressGreen} alt="imgAddressGreen"></img></div>
@@ -103,7 +103,7 @@ export default function Contacts(){
                     </div>  
 
                     <div className="wrapperContact">
-                        <div id="emailBox" className="boxContact" onMouseOver={() => mudarCor('email')} onMouseOut={() => mudarCorNormal('email')}>
+                        <a href="mailto:hencavalcante99@gmail.com" id="emailBox" className="boxContact" onMouseOver={() => mudarCor('email')} onMouseOut={() => mudarCorNormal('email')}>
 
                             <div className="iconTel"><img id="imgEmailGreen" src={imgEmailGreen} alt="imgEmailGreen"></img></div>
 
@@ -116,7 +116,7 @@ export default function Contacts(){
 
                             </div>
 
-                        </div>
+                        </a>
 
                         <a href="https://www.linkedin.com/in/henrique-cavalcante-veiga-533324179/" target="_blank" rel="noopener noreferrer" className="boxContact-lower" onMouseOver={() => mudarCor('linkedin')} onMouseOut={() => mudarCorNormal('linkedin')}>
 
