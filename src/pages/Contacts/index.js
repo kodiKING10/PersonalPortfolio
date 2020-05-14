@@ -118,7 +118,7 @@ export default function Contacts(){
 
                         </div>
 
-                        <div className="boxContact-lower" onMouseOver={() => mudarCor('linkedin')} onMouseOut={() => mudarCorNormal('linkedin')}>
+                        <a href="https://www.linkedin.com/in/henrique-cavalcante-veiga-533324179/" target="_blank" rel="noopener noreferrer" className="boxContact-lower" onMouseOver={() => mudarCor('linkedin')} onMouseOut={() => mudarCorNormal('linkedin')}>
 
                             <div className="iconTel"><img id="imgLinkedinGreen" src={imgLinkedinGreen} alt="imgLinkedinGreen"></img></div>
 
@@ -133,7 +133,7 @@ export default function Contacts(){
 
                             </div>
 
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>    

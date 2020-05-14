@@ -6,9 +6,9 @@ export default function TypeSkills(){
         <ReactTypingEffect
             text={['C#', '.NET Core', 'SQL Server', 'Javascript', 'Node.js', 'React.js']}
             loop={true}
-            speed="180"
-            eraseDelay="2500"
-            typingDelay="2000"
+            speed="150"
+            eraseDelay="1500"
+            typingDelay="1000"
         />
     );
 }
