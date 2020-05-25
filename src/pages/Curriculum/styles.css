@@ -2,14 +2,15 @@
     margin: 0 auto;
     background-color: #1a1a1a;
     width: 100%;
-    height: 390px;
+    height: 330px;
+    position: absolute;
 }
 
 .bodyColor {
-    background-color: #595959;
+    background-color: #404040;
     width: 100%;
     height: 100%;
-    padding-top: 110px;
+    padding-top: 550px;
 }
 
 .centralizer {
@@ -18,103 +19,166 @@
     height: auto;
 }
 
-.btnReturn {
-    padding: 15px;
-    width: 150px;
-    border-color: #66ff99;
-    background-color: #1a1a1a;
-    color: #fff;
-    transition: all 0.2s ease-in-out;
+.returnIcon {
     float: right;
-    margin-top: 50px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    margin-right: 15px;
+    width: 100%;
 }
 
-.btnReturn:hover {
-    background-color: #66ff99;
+.linkIcon {
+    float: right;
+    padding: 11px;
+    background-color: #00CC66;
+    width: 130px;
+    text-align: center;
     color: #000000;
-    transition: all 0.2s ease-in-out;
+    border-radius: 30px;
 }
 
-/* .headerInfo {
-    
-} */
-
-.picCurriculum {
-    width: 250px;
-    height: 320px;
-    border-radius: 9px;
-    margin-top: 120px;
-    float: left;
-    border: #000000 solid 1px;
+.linkIcon:hover {
+    color: #000000 !important;
 }
 
-.myInfo {
+.iconFi {
+    margin-right: 5px;
+}
+
+.boxHeader {
+    width: 100%;
+    height: 340px;
+}
+
+.boxPic {
+    width: 30%;
+    height: 100%;
     float: left;
-    margin-top: 120px;
+    background-color: #CCCCCC;
+    box-shadow: 9px 9px 2px rgba(0, 0, 0, 0.4) ;
+}
+
+.mePic {
+    width: 100%;
+    height: 100%;
+}
+
+.boxHeaderInfo {
+    width: 70%;
+    height: 77%;
+    float: right;
+    background-color: #fff;
+    box-shadow: 9px 9px 2px rgba(0, 0, 0, 0.4) ;
+}
+
+.footerInHeader {
+    width: 70%;
+    height: 23%;
+    float: right;
+    background-color: #1A1A1A;
+    box-shadow: 9px 9px 2px rgba(0, 0, 0, 0.4) ;
+}
+
+.helloBox {
+    margin-top: 18px;
+    margin-left: 55px;
+    background-color: #00CC66;
+    width: 140px;
+    padding: 6px;
+    box-shadow: 8px 8px 3px #CCCCCC;
+}
+
+.helloBox p {
+    color: #FFF;
+    text-align: center;
+}
+
+.infoIntroduction {
+    margin-top: 15px;
     margin-left: 55px;
 }
 
-.myInfoIntroduction h1 {
-    font-size: 38px;
+.infoIntroduction h2 {
+    color: #000000;
 }
 
-.myInfoIntroduction h3 {
-    margin-top: 15px;
+.infoIntroduction h2 span {
+    color: #00CC66;
+}
+
+.infoIntroduction h3 {
+    color: #000000;
+    margin-top: 10px;
+}
+
+.headerLineSeparator {
+    margin: 20px 55px;
+    opacity: 0.5;
 }
 
 .personalInfo {
-    margin-top: 50px;
+    margin-left: 55px;
 }
 
-.personalInfo p {
-    color: #808080;
+.personalInfo h4 {
+    color: #404040;
+    padding: 5px;
 }
 
-.pSeparator {
-    margin-top: 20px;
+.topicTitle {
+    color: #00CC66;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 60px;
 }
 
-/* .downloadCvInfo {
-    
-} */
-
-.downloadCvInfo h1 {
-    color: #CCCCCC;
+.boxDownloadCV {
+    width: 100%;
+    height: 250px;
+    background-color: #FFF;
+    margin-bottom: 70px;
+    box-shadow: 9px 9px 2px rgba(0, 0, 0, 0.4) ;
 }
 
-.downloadCvInfo p {
-    margin-top: 40px;
+.textBoxDownloadCV{
+    color: #000000;
     text-align: justify;
-    text-indent: 70px;
+    margin: 0px 50px;
+    padding-top: 45px;
+}
+
+.lineSeparatorBoxDownloadCV {
+    margin: 45px 50px 20px;
+    opacity: 0.5;
+}
+
+.boxButtons {
+    margin: 35px auto;
+    width: 35%;
 }
 
 .btnDownloadCV {
-    margin-top: 50px;
-    margin-bottom: 70px;
-    padding: 15px;
-    width: 150px;
-    border: none;
-    border-radius: 50px;
-    background-color: #66ff66;
-    border-color: #66ff66;
+    padding: 5px;
+    width: 170px;
+    background-color: #1a1a1a;
+    color: #FFF;
+    border-color: #1A1A1A;
     font-size: 14px;
     font-weight: bold;
 }
 
-.lineSeparator {
-    width: 100%;
-    height: 1px;
-    color:#666666;
-    margin-bottom: 70px;
-    opacity: 0.2;
+.contactMeLink {
+    width: 170px;
+    background-color: #1a1a1a;
+    color: #FFF;
+    border-color: #1A1A1A;
+    font-size: 14px;
+    float: right;
+    text-align: center;
+    padding: 7px;
+    font-weight: bold;
 }
 
-.resumeInfo h1 {
-    color: #CCCCCC;
-}
-
-.resumeInfo p {
-    margin-top: 40px;
-    text-align: justify;
-    text-indent: 70px;
+.contactMeLink:hover {
+    color: #FFF !important;
 }
