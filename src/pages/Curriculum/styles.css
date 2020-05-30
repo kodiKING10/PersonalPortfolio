@@ -159,13 +159,18 @@
 }
 
 .btnDownloadCV {
-    padding: 5px;
+    padding: 7px;
     width: 170px;
-    background-color: #1a1a1a;
+    background-color: #1A1A1A;
     color: #FFF;
-    border-color: #1A1A1A;
+    border: none;
     font-size: 14px;
     font-weight: bold;
+}
+
+.btnDownloadCV:hover {
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.4);
+    transition: all 0.5s ease-in-out;
 }
 
 .contactMeLink {
@@ -182,4 +187,5 @@
 
 .contactMeLink:hover {
     color: #FFF !important;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.4);
 }
