@@ -1,5 +1,17 @@
 .header {
     width: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #C4C4C4;
+}
+
+.imgHome {
+    background-repeat: no-repeat;
+    width: 100%;
+    max-height: 937px !important;
+    filter: brightness(10%);
+    -webkit-filter: brightness(10%);
 }
 
 .listHeader {
