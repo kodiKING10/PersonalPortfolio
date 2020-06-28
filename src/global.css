@@ -13,13 +13,25 @@
 }
 
 body{
-    background-color: #d9d9d9;
-    font: 400 14px Roboto, sans-serif;
+    background-color: #F0F0F5;
+    font:Roboto, sans-serif;
     -webkit-font-smoothing: antialiased;
+    /* overflow-y: hidden; Hide vertical scrollbar */
+    /* overflow-x: hidden; Hide horizontal scrollbar */
+}
+
+html{
+    scroll-behavior:smooth
+}
+
+a {
+    color: #FFF;
+    text-decoration: none; /* no underline */
+    scroll-behavior: smooth;
 }
 
 input, button, textarea {
-    font: 400 18px Roboto, sans-serif;
+    font:Roboto, sans-serif;
 }
 
 input {
@@ -28,7 +40,7 @@ input {
     border: none;
 }
 
-h1, h2, h3, h4, h5, p {
+h1, h2, h3, h4, h5, h6, p {
     color: #FFF;
 }
 
