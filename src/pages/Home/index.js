@@ -12,7 +12,7 @@ export default function Home() {
             <section className="sectionHome">        
                 <header id="header" className="header">
                     <ul className="listHeader">
-                        <li className="listItem-header"><a href="#header">Home</a></li>
+                        <li className="listItem-header"><a href="#boxHome">Home</a></li>
                         <li className="listItem-header"><a href="#sectionAboutMe">About me</a></li>
                         <li className="listItem-header"><a href="#sectionAboutMe">Education</a></li>
                         <li className="listItem-header"><a href="#sectionAboutMe">Experience</a></li>
@@ -20,7 +20,7 @@ export default function Home() {
                     </ul>
                 </header>
 
-                <div className="boxHome">
+                <div id="boxHome" className="boxHome">
                     <h6>Hello!</h6>
                     <h1>I'm Henrique Cavalcante</h1>
                     <h3>FullStack Web Developer</h3>
