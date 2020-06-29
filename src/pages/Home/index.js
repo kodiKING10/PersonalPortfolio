@@ -1,5 +1,8 @@
 import React from 'react';
 import './styles.css';
+import imgBooks from '../../assets/booksIcon.png';
+import imgController from '../../assets/controllerIcon.png';
+import imgComputer from '../../assets/computerIcon.png';
 
 export default function Home() {
         
@@ -7,13 +10,13 @@ export default function Home() {
         <div className="container">
 
             <section className="sectionHome">        
-                <header className="header">
+                <header id="header" className="header">
                     <ul className="listHeader">
+                        <li className="listItem-header"><a href="#header">Home</a></li>
                         <li className="listItem-header"><a href="#sectionAboutMe">About me</a></li>
                         <li className="listItem-header"><a href="#sectionAboutMe">Education</a></li>
                         <li className="listItem-header"><a href="#sectionAboutMe">Experience</a></li>
-                        <li className="listItem-header"><a href="#sectionAboutMe">Skills</a></li>
-                        <li className="listItem-header"><a href="#sectionAboutMe">Contact me</a></li>
+                        <li className="listItem-header"><a href="#sectionAboutMe">My Skills</a></li>
                     </ul>
                 </header>
 
@@ -30,6 +33,32 @@ export default function Home() {
                 <div width="10px" height="50px" className="verticalCenteredLine"></div>
                 <h4 id="sectionAboutMe">About me</h4>
                 <h1>My hobbies and interests</h1>
+
+                <div className="boxHobbiesInterests">
+                    <div className="linkHobbiesInterests">
+                        <img src={imgBooks} alt="imgBooks"></img>
+                        <h4>Books</h4>
+                        <p>Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit sed do eiusmod tempor.
+                        </p>
+                    </div>
+
+                    <div className="linkHobbiesInterests">
+                        <img src={imgController} alt="imgController"></img>
+                        <h4>Games</h4>
+                        <p>Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit sed do eiusmod tempor.
+                        </p>
+                    </div>
+
+                    <div className="linkHobbiesInterests">
+                        <img src={imgComputer} alt="imgComputer"></img>
+                        <h4>Games</h4>
+                        <p>Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit sed do eiusmod tempor.
+                        </p>
+                    </div>
+                </div>
             </section>            
         </div>         
     );   

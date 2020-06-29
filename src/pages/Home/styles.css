@@ -12,22 +12,35 @@
     position: fixed;
     top: 0;
     width: 100%;
+    background-color: #001F3F;
+    height: 55px;
 }
 
 .listHeader {
     display: flex;
+    height: 100%;
     list-style: none;
     justify-content: center;
     align-items: center;
     color: #FFF;
     font-weight: bold;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 
 .listItem-header{
     padding: 15px;
     font-size: 15px;
     font-weight: lighter;
+}
+
+.listItem-header a:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23FFFFFF' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 20%;
+    border-bottom: 0;
+    padding-bottom: 2px;
+    text-decoration: none;
 }
 
 .boxHome {
@@ -59,7 +72,7 @@
 
 .sectionAboutMe {
     width: 100%;
-    height: 750px;
+    height: 650px;
 }
 
 .sectionAboutMe h4 {
@@ -80,4 +93,35 @@
     background-color: #666666;
     width: 2px;
     height: 75px;
+}
+
+.boxHobbiesInterests {
+    width: 60%;
+    margin: 70px auto;
+}
+
+.linkHobbiesInterests {
+    width: 340px;
+    height: 300px;
+    background-color: #FFF;
+    box-shadow: 7px 10px 0px #CCCCCC;
+    border-left: #001D38 solid 20px;
+    float: left;
+    margin-right: 40px;
+}
+
+.linkHobbiesInterests img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.linkHobbiesInterests h4 {
+    color: #333333;
+    letter-spacing: 1px;
+}
+
+.linkHobbiesInterests p {
+    text-align: center;
+    color: #666666;
 }
