@@ -1,10 +1,21 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './styles.css';
 import imgBooks from '../../assets/booksIcon.png';
 import imgController from '../../assets/controllerIcon.png';
 import imgComputer from '../../assets/computerIcon.png';
+import imgGration from '../../assets/gration.png';
+import api from '../../services/api';
 
 export default function Home() {
+
+    const [certificates, setCertificates] = useState([]);
+
+    useEffect(() => {
+        api.get('/certificate').then( response => {
+            console.log(response.data);
+            setCertificates(response.data);
+        });
+    }, []);
         
     return(
         <div className="container">
@@ -14,7 +25,7 @@ export default function Home() {
                     <ul className="listHeader">
                         <li className="listItem-header"><a href="#boxHome">Home</a></li>
                         <li className="listItem-header"><a href="#sectionAboutMe">About me</a></li>
-                        <li className="listItem-header"><a href="#sectionAboutMe">Education</a></li>
+                        <li className="listItem-header"><a href="#sectionEducation">Education</a></li>
                         <li className="listItem-header"><a href="#sectionAboutMe">Experience</a></li>
                         <li className="listItem-header"><a href="#sectionAboutMe">My Skills</a></li>
                     </ul>
@@ -30,8 +41,8 @@ export default function Home() {
             </section>
 
             <section className="sectionAboutMe">
-                <div width="10px" height="50px" className="verticalCenteredLine"></div>
-                <h4 id="sectionAboutMe">About me</h4>
+                <div id="sectionAboutMe" className="verticalCenteredLine"></div>
+                <h4>About me</h4>
                 <h1>My hobbies and interests</h1>
 
                 <div className="boxHobbiesInterests">
@@ -43,23 +54,52 @@ export default function Home() {
                         </p>
                     </div>
 
-                    <div className="linkHobbiesInterests">
-                        <img src={imgController} alt="imgController"></img>
-                        <h4>Games</h4>
-                        <p>Lorem ipsum dolor sit amet, 
-                        consectetur adipiscing elit sed do eiusmod tempor.
-                        </p>
-                    </div>
+                    <a href="https://steamcommunity.com/profiles/76561198367866308" target="_blank" rel="noopener noreferrer">
+                        <div className="linkHobbiesInterests">
+                            <img src={imgController} alt="imgController"></img>
+                            <h4>Games</h4>
+                            <p>Lorem ipsum dolor sit amet, 
+                            consectetur adipiscing elit sed do eiusmod tempor.
+                            </p>
+                        </div>
+                    </a>
 
-                    <div className="linkHobbiesInterests">
-                        <img src={imgComputer} alt="imgComputer"></img>
-                        <h4>Games</h4>
-                        <p>Lorem ipsum dolor sit amet, 
-                        consectetur adipiscing elit sed do eiusmod tempor.
-                        </p>
+                    <a href="https://github.com/kodiKING10" target="_blank" rel="noopener noreferrer">
+                        <div className="linkHobbiesInterests">
+                            <img src={imgComputer} alt="imgComputer"></img>
+                            <h4>Code</h4>
+                            <p>Lorem ipsum dolor sit amet, 
+                            consectetur adipiscing elit sed do eiusmod tempor.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </section> 
+
+            <section className="sectionEducation">
+                <div id="sectionEducation" className="verticalCenteredLine"></div>
+                <h4 id="education">Education</h4>
+                <h1>My schooling</h1>
+
+                <div className="boxEducation">
+                    <div className="linkEducation">
+
+                        <div className="educationBoxImage">
+                        <img src={imgGration} alt="imgGration"></img>
+                        </div>
+                        <div className="educationBoxTexts">
+                            <p id="titleSchooling">Computer Technician</p>
+                            <p id="dateSchooling">2016 - 2017</p>
+                            <p id="descriptionSchooling">Lorem ipsum dolor sit amet,  consectetur adipiscing elit sed do eiusmod tempor dsaewadsa.</p>
+                        </div>
+
+                    </div>
+                    <div className="linkEducation">
+
                     </div>
                 </div>
-            </section>            
+
+            </section>           
         </div>         
     );   
 }
