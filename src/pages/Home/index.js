@@ -12,7 +12,6 @@ export default function Home() {
 
     useEffect(() => {
         api.get('/certificate').then( response => {
-            console.log(response.data);
             setCertificates(response.data);
         });
     }, []);
@@ -82,21 +81,21 @@ export default function Home() {
                 <h1>My schooling</h1>
 
                 <div className="boxEducation">
-                    <div className="linkEducation">
+                    {certificates.map(certificate => (
+                        <div className="linkEducation">
 
                         <div className="educationBoxImage">
                         <img src={imgGration} alt="imgGration"></img>
                         </div>
                         <div className="educationBoxTexts">
-                            <p id="titleSchooling">Computer Technician</p>
-                            <p id="dateSchooling">2016 - 2017</p>
-                            <p id="descriptionSchooling">Lorem ipsum dolor sit amet,  consectetur adipiscing elit sed do eiusmod tempor dsaewadsa.</p>
+                            <p id="titleSchooling"> {certificate.CourseName} </p>
+                            <p id="dateSchooling"> {certificate.Date} </p>
+                            <p id="descriptionSchooling"> {certificate.Description} </p>
                         </div>
 
-                    </div>
-                    <div className="linkEducation">
-
-                    </div>
+                        </div>
+                    ))}
+    
                 </div>
 
             </section>           

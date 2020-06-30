@@ -179,7 +179,8 @@
 }
 
 #descriptionSchooling {
-    font-size: 16px;
+    font-size: 15px;
+    text-align: justify;
     color: #444444;
     margin-top: 40px;
 }
