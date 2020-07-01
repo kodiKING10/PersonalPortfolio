@@ -5,6 +5,7 @@ import imgController from '../../assets/controllerIcon.png';
 import imgComputer from '../../assets/computerIcon.png';
 import imgGration from '../../assets/gration.png';
 import api from '../../services/api';
+import TypeSkills from '../../components/TypeSkills';
 
 export default function Home() {
 
@@ -25,7 +26,7 @@ export default function Home() {
                         <li className="listItem-header"><a href="#boxHome">Home</a></li>
                         <li className="listItem-header"><a href="#sectionAboutMe">About me</a></li>
                         <li className="listItem-header"><a href="#sectionEducation">Education</a></li>
-                        <li className="listItem-header"><a href="#sectionAboutMe">Experience</a></li>
+                        <li className="listItem-header"><a href="#sectionMyExperience">Experience</a></li>
                         <li className="listItem-header"><a href="#sectionAboutMe">My Skills</a></li>
                     </ul>
                 </header>
@@ -36,6 +37,8 @@ export default function Home() {
                     <h3>FullStack Web Developer</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Lorem ipsum dolor 
                     sit amet.</p>
+
+                    <p id="typeSkills"><TypeSkills/></p>
                 </div>
             </section>
 
@@ -82,23 +85,34 @@ export default function Home() {
 
                 <div className="boxEducation">
                     {certificates.map(certificate => (
-                        <div className="linkEducation">
+                        <a key={certificate.ID} href={certificate.Image} target="_blank" rel="noopener noreferrer" className="overlay">
+                            <div className="linkEducation">
 
-                        <div className="educationBoxImage">
-                        <img src={imgGration} alt="imgGration"></img>
-                        </div>
-                        <div className="educationBoxTexts">
-                            <p id="titleSchooling"> {certificate.CourseName} </p>
-                            <p id="dateSchooling"> {certificate.Date} </p>
-                            <p id="descriptionSchooling"> {certificate.Description} </p>
-                        </div>
+                                <div className="educationBoxImage">
+                                <img src={imgGration} alt="imgGration"></img>
+                                </div>
+                                <div className="educationBoxTexts">
+                                    <p id="titleSchooling"> {certificate.CourseName} </p>
+                                    <p id="institutionSchooling"> {certificate.Institution} </p>
+                                    <p id="dateSchooling"> {certificate.Date} </p>
+                                    <p id="descriptionSchooling"> {certificate.Description} </p>
+                                </div>
 
-                        </div>
+                            </div>
+                        </a>
                     ))}
-    
                 </div>
 
-            </section>           
+            </section> 
+
+            <section className="sectionMyExperience">
+                <div id="sectionMyExperience" className="verticalCenteredLine"></div>
+
+                <div className="boxMyExperience">
+
+                </div>
+
+            </section>          
         </div>         
     );   
 }

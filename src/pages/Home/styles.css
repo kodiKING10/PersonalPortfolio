@@ -98,6 +98,12 @@
     border-left: #001D38 solid 20px;
     float: left;
     margin-right: 40px;
+    transition: all 0.4s ease-in-out;
+}
+
+.linkHobbiesInterests:hover {
+    border: solid 6px #001F3F;
+    transition: all 0.4s ease-in-out;
 }
 
 .linkHobbiesInterests img {
@@ -169,8 +175,15 @@
 #titleSchooling {
     font-size: 18px;
     text-align: left;
-    margin-top: 40px;
+    margin-top: 35px;
     margin-left: 30px;
+    font-weight: bold;
+}
+
+#institutionSchooling {
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 #dateSchooling {
@@ -182,7 +195,7 @@
     font-size: 15px;
     text-align: justify;
     color: #444444;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .educationBoxTexts p {
@@ -190,3 +203,17 @@
     margin-left: 30px;
     margin-right: 30px;
 }
+
+.sectionMyExperience {
+    width: 100%;
+    height: 650px;
+}
+
+#typeSkills {
+    font-size: 52px;
+    font-weight: 400;
+    color: #F0F0F5;
+    text-align: center;
+    margin-top: 130px;
+}
+
