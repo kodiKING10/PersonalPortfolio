@@ -27,7 +27,7 @@ export default function Home() {
                         <li className="listItem-header"><a href="#sectionAboutMe">About me</a></li>
                         <li className="listItem-header"><a href="#sectionEducation">Education</a></li>
                         <li className="listItem-header"><a href="#sectionMyExperience">Experience</a></li>
-                        <li className="listItem-header"><a href="#sectionAboutMe">My Skills</a></li>
+                        <li className="listItem-header"><a href="#sectionAboutMe">Download CV</a></li>
                     </ul>
                 </header>
 
@@ -133,7 +133,18 @@ export default function Home() {
                         </p>
                     </div>
                 </div>
-            </section>  
+
+                <div className="boxMySkills">
+                    <div className="boxSkillsResume">
+                        <p id="textSkillTitle">Skills<span>.</span></p>
+                        <p id="textSkillResume">I am inspired by creating great work with people who are as passionate as I am about building something awesome.
+                        </p>
+                    </div>
+                    <div className="boxSkillsCharts">
+
+                    </div>
+                </div>
+            </section> 
                     
         </div>         
     );   
