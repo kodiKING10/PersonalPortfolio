@@ -213,8 +213,8 @@
     width: 100%;
     height: 650px;
     border-bottom: 50px solid #615CFD;
-    border-left: 50px solid #615CFD;
-    border-right: 50px solid #615CFD;
+    /* border-left: 50px solid #615CFD;
+    border-right: 50px solid #615CFD; */
 }
 
 #typeSkills {
