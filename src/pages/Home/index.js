@@ -107,12 +107,34 @@ export default function Home() {
 
             <section className="sectionMyExperience">
                 <div id="sectionMyExperience" className="verticalCenteredLine"></div>
+                <h4 id="experience">My work experience</h4>
 
                 <div className="boxMyExperience">
+                    <div className="boxExperienceResume">
+                        <p id="textExperienceTitle">Experience<span>.</span></p>
+                        <p id="textExperienceResume">Experience
+                            I partner with startups, organizations and Fortune 500 companies to build digital products that help clients overcome challenges and 
+                            create lasting connections with millions of people every day.
+                        </p>
+                    </div>
+                    <div className="boxExperienceDetail">
+                        <p className="textWorkTitle">Intern <span>at Kasolution</span></p>
+                        <p className="dateExperience">Oct, 2018 - Jun, 2019</p>
+                        <p className="descriptionExperience">Designed and developed user-friendly website, including optimized check-out page that increased user 
+                            clicks, and subsequently customer purchases by 20%.
+                        </p>
 
+                        <hr className="experienceLineSeparator"></hr>
+
+                        <p className="textWorkTitle">Software Developer Jr. <span>at Kasolution</span></p>
+                        <p className="dateExperience">Jun, 2019 - Mar, 2020</p>
+                        <p className="descriptionExperience">Designed and developed user-friendly website, including optimized check-out page that increased user 
+                            clicks, and subsequently customer purchases by 20%.
+                        </p>
+                    </div>
                 </div>
-
-            </section>          
+            </section>  
+                    
         </div>         
     );   
 }

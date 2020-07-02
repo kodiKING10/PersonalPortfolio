@@ -41,7 +41,8 @@ input {
 }
 
 h1, h2, h3, h4, h5, h6, p {
-    color: #F0f0f5;
+    color: #252525;
+    font: Roboto !important;
 }
 
 button {
