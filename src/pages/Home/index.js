@@ -6,6 +6,8 @@ import imgComputer from '../../assets/computerIcon.png';
 import imgGration from '../../assets/gration.png';
 import api from '../../services/api';
 import TypeSkills from '../../components/TypeSkills';
+import SkillBar from '../../components/SkillBar';
+import textBack from '../../assets/textBackground.PNG'
 
 export default function Home() {
 
@@ -27,7 +29,7 @@ export default function Home() {
                         <li className="listItem-header"><a href="#sectionAboutMe">About me</a></li>
                         <li className="listItem-header"><a href="#sectionEducation">Education</a></li>
                         <li className="listItem-header"><a href="#sectionMyExperience">Experience</a></li>
-                        <li className="listItem-header"><a href="#sectionAboutMe">Download CV</a></li>
+                        <li className="listItem-header"><a href="#sectionDownloadCV">Download CV</a></li>
                     </ul>
                 </header>
 
@@ -107,7 +109,7 @@ export default function Home() {
 
             <section className="sectionMyExperience">
                 <div id="sectionMyExperience" className="verticalCenteredLine"></div>
-                <h4 id="experience">My work experience</h4>
+                <h4 id="experience">My technical experience</h4>
 
                 <div className="boxMyExperience">
                     <div className="boxExperienceResume">
@@ -140,11 +142,27 @@ export default function Home() {
                         <p id="textSkillResume">I am inspired by creating great work with people who are as passionate as I am about building something awesome.
                         </p>
                     </div>
-                    <div className="boxSkillsCharts">
+                    
+                    <SkillBar></SkillBar>
+                    
+                </div>
+            </section> 
+
+            <section id="sectionDownloadCV" className="sectionDownloadCV">
+                <div className="boxDownloadCV">
+                    <div className="areaDownloadCV">
+                        <img className="textBackgroundDownloadCV" src={textBack} alt="textBackgroundDownloadCV"></img>
+                        <label>Download CV</label>
+                        <p className="textDownloadCV">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida Risus com odo viverra maecenas.
+                        </p>
+                        <button className="btnDownloadCV">Download CV</button>
+                    </div>
+                    <div className="imgDownloadCV">
 
                     </div>
                 </div>
-            </section> 
+            </section>
                     
         </div>         
     );   

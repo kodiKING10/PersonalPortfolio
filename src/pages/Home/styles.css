@@ -1,7 +1,7 @@
 .sectionHome{
     width: 100%;
     height: 937px;
-    background-image: url(../../assets/imgHome.png);
+    background-image: url(../../assets/purpleBack.png);
     background-repeat: no-repeat;
     background-size: cover;
     max-height: 937px !important;
@@ -12,7 +12,7 @@
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #001F3F;
+    background-color: #615CFD;
     height: 55px;
 }
 
@@ -211,10 +211,8 @@
 
 .sectionMyExperience {
     width: 100%;
-    height: 1050px;
-    border-bottom: 50px solid #615CFD;
-    /* border-left: 50px solid #615CFD;
-    border-right: 50px solid #615CFD; */
+    height: 1000px;
+    /* border-bottom: 50px solid #615CFD; */
 }
 
 #typeSkills {
@@ -341,4 +339,70 @@
     color:#666464;
     font-size: 16px;
     text-align: justify;
+}
+
+.boxSkillName {
+    margin-bottom: 20px;
+}
+
+.lblSkillName {
+    color:#615CFD;
+    font-weight: 700;
+}
+
+.lblPercentage {
+    color:#615CFD;
+    float: right;
+}
+
+.skillLine {
+    transition: all 0.5s ease-in-out;
+}
+
+.sectionDownloadCV {
+    width: 100%;
+    height: 500px;
+}
+
+.boxDownloadCV {
+    max-width: 1200px;
+    width: 1050px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.areaDownloadCV {
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+
+.imgDownloadCV {
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+
+.textBackgroundDownloadCV {
+    
+}
+
+.areaDownloadCV label {
+    color: #615CFD;
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.textDownloadCV {
+    color: #727272;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.btnDownloadCV {
+    padding: 15px 40px;
+    background-color: #615CFD;
+    border: none;
+    color: #F0F0F5;
+    font-weight: 700;
 }
