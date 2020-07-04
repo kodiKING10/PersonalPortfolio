@@ -8,6 +8,7 @@ import api from '../../services/api';
 import TypeSkills from '../../components/TypeSkills';
 import SkillBar from '../../components/SkillBar';
 import textBack from '../../assets/textBackground.PNG'
+import dude from '../../assets/dude.png';
 
 export default function Home() {
 
@@ -148,6 +149,8 @@ export default function Home() {
                 </div>
             </section> 
 
+            <hr className="lineSeparatorDownload"></hr>
+
             <section id="sectionDownloadCV" className="sectionDownloadCV">
                 <div className="boxDownloadCV">
                     <div className="areaDownloadCV">
@@ -156,10 +159,10 @@ export default function Home() {
                         <p className="textDownloadCV">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod
                             tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida Risus com odo viverra maecenas.
                         </p>
-                        <button className="btnDownloadCV">Download CV</button>
+                        <a className="btnDownloadCV" href="http://localhost:3333/uploads/curriculum2020.pdf" target="_blank" rel="noopener noreferrer">Download CV</a>
                     </div>
                     <div className="imgDownloadCV">
-
+                        <img className="imgMe" src={dude} alt="dude"></img>
                     </div>
                 </div>
             </section>
