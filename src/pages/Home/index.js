@@ -32,7 +32,7 @@ export default function Home() {
                         <li className="listItem-header"><a href="#sectionEducation">Education</a></li>
                         <li className="listItem-header"><a href="#sectionMyExperience">Experience</a></li>
                         <li className="listItem-header"><a href="#sectionDownloadFooter">Download CV</a></li>
-                        <li className="listItem-header"><a href="http://localhost:3333/api/" target="_blank" rel="noopener noreferrer">API Restful</a></li>
+                        <li className="listItem-header"><a href="https://henriquecavalcanteapi.herokuapp.com/api/" target="_blank" rel="noopener noreferrer">API Restful</a></li>
                     </ul>
                 </header>
 
@@ -159,7 +159,7 @@ export default function Home() {
                     ut labore et dolore magna aliqua ut labore et dolore magna aliqua.
                     </p>
                     <div className="boxDownloadCV">
-                        <a className="btnDownloadCV" href="http://localhost:3333/uploads/curriculum2020.pdf" target="_blank" rel="noopener noreferrer">Download CV</a>
+                        <a className="btnDownloadCV" href="https://henriquecavalcanteapi.herokuapp.com/uploads/curriculum2020.pdf" target="_blank" rel="noopener noreferrer">Download CV</a>
                     </div>
                 </div>
 
@@ -167,7 +167,7 @@ export default function Home() {
                     <ul className="listHeader">
                         <li className="listItem-header"><a href="#boxHome">Home</a></li>
                         <li className="listItem-header"><a href="#sectionAboutMe">About me</a></li>
-                        <li className="listItem-header"><a href="http://localhost:3333/api/" target="_blank" rel="noopener noreferrer">Check the API of my Website</a></li>
+                        <li className="listItem-header"><a href="https://henriquecavalcanteapi.herokuapp.com/api/" target="_blank" rel="noopener noreferrer">Check the API of my Website</a></li>
                     </ul>
 
                     <div className="boxSocialMedia">
