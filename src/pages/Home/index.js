@@ -7,8 +7,9 @@ import imgGration from '../../assets/gration.png';
 import api from '../../services/api';
 import TypeSkills from '../../components/TypeSkills';
 import SkillBar from '../../components/SkillBar';
-import textBack from '../../assets/textBackground.PNG'
-import dude from '../../assets/dude.png';
+import iconWhatsapp from '../../assets/whatsapp.png';
+import iconLinkedin from '../../assets/linkedin.png';
+import iconGPlus from '../../assets/google-plus.png';
 
 export default function Home() {
 
@@ -30,7 +31,8 @@ export default function Home() {
                         <li className="listItem-header"><a href="#sectionAboutMe">About me</a></li>
                         <li className="listItem-header"><a href="#sectionEducation">Education</a></li>
                         <li className="listItem-header"><a href="#sectionMyExperience">Experience</a></li>
-                        <li className="listItem-header"><a href="#sectionDownloadCV">Download CV</a></li>
+                        <li className="listItem-header"><a href="#sectionDownloadFooter">Download CV</a></li>
+                        <li className="listItem-header"><a href="http://localhost:3333/api/" target="_blank" rel="noopener noreferrer">API Restful</a></li>
                     </ul>
                 </header>
 
@@ -149,22 +151,36 @@ export default function Home() {
                 </div>
             </section> 
 
-            <hr className="lineSeparatorDownload"></hr>
+            <section id="sectionDownloadFooter" className="sectionDownloadFooter">
 
-            <section id="sectionDownloadCV" className="sectionDownloadCV">
-                <div className="boxDownloadCV">
-                    <div className="areaDownloadCV">
-                        <img className="textBackgroundDownloadCV" src={textBack} alt="textBackgroundDownloadCV"></img>
-                        <label>Download CV</label>
-                        <p className="textDownloadCV">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida Risus com odo viverra maecenas.
-                        </p>
+                <div className="boxMidTextDownloadFooter">
+                    <h1>Get in touch and let's talk</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor
+                    ut labore et dolore magna aliqua ut labore et dolore magna aliqua.
+                    </p>
+                    <div className="boxDownloadCV">
                         <a className="btnDownloadCV" href="http://localhost:3333/uploads/curriculum2020.pdf" target="_blank" rel="noopener noreferrer">Download CV</a>
                     </div>
-                    <div className="imgDownloadCV">
-                        <img className="imgMe" src={dude} alt="dude"></img>
-                    </div>
                 </div>
+
+                <div className="boxFooter">
+                    <ul className="listHeader">
+                        <li className="listItem-header"><a href="#boxHome">Home</a></li>
+                        <li className="listItem-header"><a href="#sectionAboutMe">About me</a></li>
+                        <li className="listItem-header"><a href="http://localhost:3333/api/" target="_blank" rel="noopener noreferrer">Check the API of my Website</a></li>
+                    </ul>
+
+                    <div className="boxSocialMedia">
+                        <a href="https://api.whatsapp.com/send?phone=5511982371115" target="_blank" rel="noopener noreferrer"><img className="iconSocialMedia" src={iconWhatsapp} alt ="iconWhatsapp"></img></a>
+                        <a href="https://www.linkedin.com/in/henrique-cavalcante-veiga-533324179/" target="_blank" rel="noopener noreferrer"><img className="iconSocialMedia" src={iconLinkedin} alt ="iconLinkedin"></img></a>
+                        <a href="mailto:hencavalcante99@gmail.com"><img className="iconSocialMedia" src={iconGPlus} alt ="iconGPlus"></img></a> 
+                    </div>    
+                </div>
+
+                <div className="boxCopyright">
+                    <p>Copyright ©2020 All rights reserved | Personal portfolio of Henrique Cavalcante Veiga</p>
+                </div>
+                    
             </section>
                     
         </div>         

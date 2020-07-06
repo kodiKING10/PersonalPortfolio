@@ -12,7 +12,7 @@
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #03024b;
+    background-color: #615CFD;
     height: 55px;
 }
 
@@ -120,6 +120,7 @@
 .linkHobbiesInterests p {
     text-align: center;
     color: #666666;
+    font-style: italic;
 }
 
 .sectionEducation {
@@ -362,44 +363,10 @@
     transition: all 0.5s ease-in-out;
 }
 
-.sectionDownloadCV {
+.sectionDownloadFooter {
     width: 100%;
-    height: 500px;
-}
-
-.boxDownloadCV {
-    max-width: 1200px;
-    width: 1050px;
-    height: 100%;
-    margin: 0 auto;
-}
-
-.areaDownloadCV {
-    width: 60%;
-    height: 100%;
-    float: left;
-}
-
-.imgDownloadCV {
-    width: 40%;
-    height: 100%;
-    float: left;
-}
-
-/* .textBackgroundDownloadCV {
-    
-} */
-
-.areaDownloadCV label {
-    color: #615CFD;
-    font-size: 52px;
-    font-weight: 700;
-}
-
-.textDownloadCV {
-    color: #727272;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    height: 600px;
+    background-color: #001F3F;
 }
 
 .btnDownloadCV {
@@ -411,12 +378,67 @@
     font-size: 14px;
 }
 
-.lineSeparatorDownload {
-    border-top: 0.5px #d9d9d9 solid;
-    margin-bottom: 100px;
+.boxMidTextDownloadFooter{
+    margin: 0 auto;
+    width: 40%;
+    height: auto;
 }
 
-.imgMe {
-    height: 450px;
-    padding-left: 20px;
+.boxMidTextDownloadFooter h1 {
+    color: #F0F0F5;
+    text-align: center;
+    font-size: 48px;
+    padding: 110px 0px 30px;
+}
+
+.boxMidTextDownloadFooter P {
+    color: #F0F0F5;
+}
+
+.boxDownloadCV {
+    margin: 0 auto;
+    width: fit-content;
+    margin-top: 50px;
+}
+
+.boxFooter {
+    width: 1200px;
+    margin: 0 auto;
+    height: 60px;
+    margin-top: 100px;
+}
+
+.boxFooter ul {
+    float: left;
+}
+
+.boxSocialMedia {
+    float: right;
+}
+
+.iconSocialMedia {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+.sectionDownloadFooter hr {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.boxCopyright {
+    width: 1200px;
+    margin: 0 auto;
+    border-top: 1px solid #d9d9d9;
+    margin-top: 50px;
+    padding: 35px;
+    
+}
+
+.boxCopyright p {
+    color: #C7C7C7;
+    font-style: italic;
+    text-align: center;
+    font-size: 14px;
 }
