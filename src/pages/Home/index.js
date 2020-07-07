@@ -135,7 +135,7 @@ export default function Home() {
                         <p className="dateExperience">Jun, 2019 - Mar, 2020</p>
                         <p className="descriptionExperience">Designed and developed user-friendly website, 
                             including optimized check-out page that increased user 
-                            clicks, and subsequently customer purchases by 20%.
+                            clicks, and subsequently customer purchases by 30%.
                         </p>
                     </div>
                 </div>
