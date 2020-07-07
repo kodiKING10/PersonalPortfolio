@@ -133,7 +133,8 @@ export default function Home() {
 
                         <p className="textWorkTitle">Software Developer Jr. <span>at Kasolution</span></p>
                         <p className="dateExperience">Jun, 2019 - Mar, 2020</p>
-                        <p className="descriptionExperience">Designed and developed user-friendly website, including optimized check-out page that increased user 
+                        <p className="descriptionExperience">Designed and developed user-friendly website, 
+                            including optimized check-out page that increased user 
                             clicks, and subsequently customer purchases by 20%.
                         </p>
                     </div>
