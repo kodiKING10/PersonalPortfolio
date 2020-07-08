@@ -117,25 +117,24 @@ export default function Home() {
                 <div className="boxMyExperience">
                     <div className="boxExperienceResume">
                         <p id="textExperienceTitle">Experience<span>.</span></p>
-                        <p id="textExperienceResume">Experience
-                            I partner with startups, organizations and Fortune 500 companies to build digital products that help clients overcome challenges and 
-                            create lasting connections with millions of people every day.
+                        <p id="textExperienceResume">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor ds temps sjkel sjepslje
+                    ut labore et dolore magna aliqua ut labore et dolore magna aliqua.
                         </p>
                     </div>
                     <div className="boxExperienceDetail">
                         <p className="textWorkTitle">Intern <span>at Kasolution</span></p>
                         <p className="dateExperience">Oct, 2018 - Jun, 2019</p>
-                        <p className="descriptionExperience">Designed and developed user-friendly website, including optimized check-out page that increased user 
-                            clicks, and subsequently customer purchases by 20%.
+                        <p className="descriptionExperience">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor Lorem ipsum 
+                        dolor sit amet, consectetur adipiscing elit sed do eiusmod.
                         </p>
 
                         <hr className="experienceLineSeparator"></hr>
 
                         <p className="textWorkTitle">Software Developer Jr. <span>at Kasolution</span></p>
                         <p className="dateExperience">Jun, 2019 - Mar, 2020</p>
-                        <p className="descriptionExperience">Designed and developed user-friendly website, 
-                            including optimized check-out page that increased user 
-                            clicks, and subsequently customer purchases by 30%.
+                        <p className="descriptionExperience">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor
+                    ut labore et dolore magna aliqua ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor
+                    ut labore et dolore magna aliqua ut labore et dolore magna aliqua.
                         </p>
                     </div>
                 </div>
@@ -143,7 +142,7 @@ export default function Home() {
                 <div className="boxMySkills">
                     <div className="boxSkillsResume">
                         <p id="textSkillTitle">Skills<span>.</span></p>
-                        <p id="textSkillResume">I am inspired by creating great work with people who are as passionate as I am about building something awesome.
+                        <p id="textSkillResume">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor dolore magna aliqua.
                         </p>
                     </div>
                     
