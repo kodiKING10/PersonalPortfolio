@@ -153,7 +153,7 @@ export default function Home() {
 
                 <div className="boxMidTextDownloadFooter">
                     <h1>Get in touch and let's talk</h1>
-                    <p>Just send a message on one of my social media if you wish to know more about me, or check out my CV below.
+                    <p>Just send a message on one of my social media if you wish to know more about me, or check out my CV below. Soon i'll make the code available in GitHub.
                     </p>
                     <div className="boxDownloadCV">
                         <a className="btnDownloadCV" href="https://henriquecavalcanteapi.herokuapp.com/uploads/curriculum2020.pdf" target="_blank" rel="noopener noreferrer">Download CV</a>
