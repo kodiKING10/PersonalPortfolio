@@ -65,7 +65,7 @@ export default function Home() {
                         <div className="linkHobbiesInterests">
                             <img src={imgController} alt="imgController"></img>
                             <h4>Games</h4>
-                            <p>Games have always been an important hobby in my life
+                            <p>Games have always been an important hobby in my life and will always be :D.
                             </p>
                         </div>
                     </a>
