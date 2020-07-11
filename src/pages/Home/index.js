@@ -40,8 +40,9 @@ export default function Home() {
                     <h6>Hello!</h6>
                     <h1>I'm Henrique Cavalcante</h1>
                     <h3>FullStack Web Developer</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Lorem ipsum dolor 
-                    sit amet.</p>
+                    <p>I am a Web Developer located in São Paulo - SP, Brazil. This is my first personal portfolio, made simply to share a bit of my skills 
+                    and passions.
+                    </p>
 
                     <p id="typeSkills"><TypeSkills/></p>
                 </div>
@@ -56,8 +57,7 @@ export default function Home() {
                     <div className="linkHobbiesInterests">
                         <img src={imgBooks} alt="imgBooks"></img>
                         <h4>Books</h4>
-                        <p>Lorem ipsum dolor sit amet, 
-                        consectetur adipiscing elit sed do eiusmod tempor.
+                        <p>I've always been interested in fantasy stories, which introduced me to reading.
                         </p>
                     </div>
 
@@ -65,8 +65,7 @@ export default function Home() {
                         <div className="linkHobbiesInterests">
                             <img src={imgController} alt="imgController"></img>
                             <h4>Games</h4>
-                            <p>Lorem ipsum dolor sit amet, 
-                            consectetur adipiscing elit sed do eiusmod tempor.
+                            <p>Games have always been an important hobby in my life
                             </p>
                         </div>
                     </a>
@@ -75,8 +74,7 @@ export default function Home() {
                         <div className="linkHobbiesInterests">
                             <img src={imgComputer} alt="imgComputer"></img>
                             <h4>Code</h4>
-                            <p>Lorem ipsum dolor sit amet, 
-                            consectetur adipiscing elit sed do eiusmod tempor.
+                            <p>I was introduced to the programming world at 16 yo, and have been trying to improve each day since then.
                             </p>
                         </div>
                     </a>
@@ -117,8 +115,8 @@ export default function Home() {
                 <div className="boxMyExperience">
                     <div className="boxExperienceResume">
                         <p id="textExperienceTitle">Experience<span>.</span></p>
-                        <p id="textExperienceResume">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor ds temps sjkel sjepslje
-                    ut labore et dolore magna aliqua ut labore et dolore magna aliqua.
+                        <p id="textExperienceResume">My professional experience started at college with my first job as an intern, 
+                        since then i've been trying to reach new heights as a programmer.
                         </p>
                     </div>
                     <div className="boxExperienceDetail">
@@ -142,7 +140,7 @@ export default function Home() {
                 <div className="boxMySkills">
                     <div className="boxSkillsResume">
                         <p id="textSkillTitle">Skills<span>.</span></p>
-                        <p id="textSkillResume">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor dolore magna aliqua.
+                        <p id="textSkillResume">My general skills attained since the start of my journey, without taking to account frameworks and whatnot.
                         </p>
                     </div>
                     
@@ -155,8 +153,7 @@ export default function Home() {
 
                 <div className="boxMidTextDownloadFooter">
                     <h1>Get in touch and let's talk</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor
-                    ut labore et dolore magna aliqua ut labore et dolore magna aliqua.
+                    <p>Just send a message on one of my social media if you wish to know more about me, or check out my CV below.
                     </p>
                     <div className="boxDownloadCV">
                         <a className="btnDownloadCV" href="https://henriquecavalcanteapi.herokuapp.com/uploads/curriculum2020.pdf" target="_blank" rel="noopener noreferrer">Download CV</a>
