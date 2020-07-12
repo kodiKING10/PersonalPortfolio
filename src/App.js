@@ -3,8 +3,9 @@ import './global.css'
 import Routes from './routes';
 import ReactGA from 'react-ga';
 
-ReactGA.initialize('UA-172418049-1');
-ReactGA.pageview('/');
+const trackingID = "UA-172418049-1";
+ReactGA.initialize(trackingID);
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 function App() {
   return (
