@@ -5,12 +5,7 @@ import ReactGA from 'react-ga';
 
 ReactGA.initialize('UA-172418049-1', {
   debug: true,
-  titleCase: false,
-  gaOptions: {
-    userId: 123
-  }
 });
-
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 function App() {
