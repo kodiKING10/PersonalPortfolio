@@ -39,8 +39,8 @@ export default function Home() {
                 <div id="boxHome" className="boxHome">
                     <h6>Hello!</h6>
                     <h1>I'm Henrique Cavalcante</h1>
-                    <h3>FullStack Web Developer</h3>
-                    <p>I am a Web Developer located in São Paulo - SP, Brazil. This is my first personal portfolio, made simply to share a bit of my skills 
+                    <h3>Software Developer</h3>
+                    <p>I'm a Software Developer located in São Paulo - SP, Brazil. This is my first personal portfolio, made simply to share a bit of my skills 
                     and passions.
                     </p>
 
