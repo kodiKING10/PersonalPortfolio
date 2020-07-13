@@ -94,8 +94,13 @@
 }
 
 .boxHobbiesInterests {
-    width: 60%;
-    margin: 70px auto;
+    width: 100%;
+    /* margin: 70px auto; */
+    /* margin: 0 auto; */
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    justify-content: center;
 }
 
 .linkHobbiesInterests {
@@ -446,4 +451,14 @@
     font-style: italic;
     text-align: center;
     font-size: 14px;
+}
+
+@media screen and (max-width: 1472px) {
+
+    /* BUG DO RODAPE ACONTECE NESSE WIDTH */
+
+}
+
+@media screen and (max-width: 1240px) {
+
 }
