@@ -305,6 +305,7 @@
     color:#666464;
     font-size: 16px;
     font-style: italic;
+    line-height: 1.35;
 }
 
 .experienceLineSeparator {
@@ -375,7 +376,7 @@
 
 .sectionDownloadFooter {
     width: 100%;
-    height: 600px;
+    height: auto;
     background-color: #001F3F;
 }
 
@@ -453,12 +454,6 @@
     font-size: 14px;
 }
 
-@media screen and (max-width: 1472px) {
-
-    /* BUG DO RODAPE ACONTECE NESSE WIDTH */
-
-}
-
-@media screen and (max-width: 1240px) {
+@media screen and (max-width: 1270px) {
 
 }

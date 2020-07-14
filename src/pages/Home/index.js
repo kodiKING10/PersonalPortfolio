@@ -122,8 +122,8 @@ export default function Home() {
                     <div className="boxExperienceDetail">
                         <p className="textWorkTitle">Intern <span>at Kasolution</span></p>
                         <p className="dateExperience">Oct, 2018 - Jun, 2019</p>
-                        <p className="descriptionExperience">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor Lorem ipsum 
-                        dolor sit amet, consectetur adipiscing elit sed do eiusmod.
+                        <p className="descriptionExperience">On my first professional experience I worked mostly with software and database maintenace, 
+                            solving low-to-mid tier problems that would come up, spending most of my time in .NET Webforms and Full Framework aswell as SQL Server.
                         </p>
 
                         <hr className="experienceLineSeparator"></hr>
@@ -153,7 +153,7 @@ export default function Home() {
 
                 <div className="boxMidTextDownloadFooter">
                     <h1>Get in touch and let's talk</h1>
-                    <p>Just send a message on one of my social media if you wish to know more about me, or check out my CV below. Soon i'll make the code available in GitHub.
+                    <p>Just send a message on one of my social media if you wish to know more about me, or check out my CV below. When I finish the website i'll make the code available on Github.
                     </p>
                     <div className="boxDownloadCV">
                         <a className="btnDownloadCV" href="https://henriquecavalcanteapi.herokuapp.com/uploads/curriculum2020.pdf" target="_blank" rel="noopener noreferrer">Download CV</a>
