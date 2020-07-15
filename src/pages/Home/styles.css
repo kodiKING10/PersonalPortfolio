@@ -455,5 +455,94 @@
 }
 
 @media screen and (max-width: 1270px) {
+    .boxFooter {
+        width: 900px;
+    }
 
+    .boxCopyright {
+        width: 900px;
+    }
 }
+
+@media screen and (max-width: 930px) {
+    .boxFooter {
+        width: 600px;
+    }
+
+    .boxCopyright {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .boxHome {
+        width: 480px;
+    }
+
+    .boxHome h6 {
+        font-size: 38px;
+    }
+
+    .boxHome h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 635px) {
+    .boxFooter {
+        width: 350px;
+        margin-top: 60px;
+    }
+
+    .boxCopyright {
+        width: 300px;
+    }
+
+    .boxFooter .listHeader {
+        display: none;
+    }
+
+    .boxSocialMedia {
+        float: none;
+        display: flex;
+        justify-content: center;
+    }
+
+    .boxCopyright p {
+        font-size: 12px;
+    }
+
+    .boxMidTextDownloadFooter {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .boxHome {
+        width: 350px;
+        padding-top: 250px;
+    }
+
+    .boxHome h6 {
+        font-size: 36px;
+    }
+
+    .boxHome h3 {
+        font-size: 34px;
+    }
+
+    .boxHome h1 {
+        font-size: 38px;
+    }
+
+    #typeSkills {
+        font-size: 42px;
+        margin-top: 80px;
+    }
+
+    .listItem-header {
+        padding: 10px;
+        font-size: 12px;
+    }
+}
+
