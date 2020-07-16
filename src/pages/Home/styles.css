@@ -70,7 +70,7 @@
 
 .sectionAboutMe {
     width: 100%;
-    height: 650px;
+    height: auto;
 }
 
 .sectionAboutMe h4 {
@@ -114,6 +114,10 @@
     transition: all 0.4s ease-in-out;
 }
 
+#linkHobbiesInterests_lastchild {
+    margin-bottom: 20px;
+}
+
 .linkHobbiesInterests img {
     display: block;
     margin: 0 auto;
@@ -133,7 +137,8 @@
 
 .sectionEducation {
     width: 100%;
-    height: 600px;
+    min-height: 600px;
+    height: auto;
     background-color: #001F3F;
     background-image: url(../../assets/purpleSchooling.png);
     background-repeat: no-repeat;
@@ -464,6 +469,29 @@
     }
 }
 
+@media screen and (max-width: 1270px) {
+    .boxHobbiesInterests {
+        display: grid;
+        margin-top: 0px;
+    }
+
+    .linkHobbiesInterests {
+        margin-top: 40px;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 1065px) {
+    .boxEducation {
+        display: grid;
+        margin: 20px auto;
+    }
+
+    .linkEducation {
+        margin: 20px 0px;
+    }
+}
+
 @media screen and (max-width: 930px) {
     .boxFooter {
         width: 600px;
@@ -543,6 +571,11 @@
     .listItem-header {
         padding: 10px;
         font-size: 12px;
+    }
+
+    .linkEducation {
+        width: 380px;
+        height: 260px;
     }
 }
 
