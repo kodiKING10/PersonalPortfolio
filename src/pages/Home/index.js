@@ -130,9 +130,8 @@ export default function Home() {
 
                         <p className="textWorkTitle">Software Developer Jr. <span>at Kasolution</span></p>
                         <p className="dateExperience">Jun, 2019 - Mar, 2020</p>
-                        <p className="descriptionExperience">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor
-                    ut labore et dolore magna aliqua ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor
-                    ut labore et dolore magna aliqua ut labore et dolore magna aliqua.
+                        <p className="descriptionExperience">Still continued to work with application and database maintenance, but now also offering maintenance to web services, 
+                            as well as a member of the team responsible for the migration of the webforms application to .NET Core.
                         </p>
                     </div>
                 </div>
