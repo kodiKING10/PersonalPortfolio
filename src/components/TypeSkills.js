@@ -7,8 +7,8 @@ export default function TypeSkills(){
             text={['HTML5','CSS3', 'C#', 'Javascript', 'Node.js', 'React.js','SQL Server']}
             loop={true}
             speed="150"
-            eraseDelay="1500"
-            typingDelay="1000"
+            eraseDelay="1000"
+            typingDelay="800"
         />
     );
 }
