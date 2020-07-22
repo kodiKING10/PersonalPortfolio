@@ -173,6 +173,31 @@
     border: 1.5px solid #615CFD;
 }
 
+.overlay {
+    background-color: #615CFD;
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    opacity: 0;
+    transition: .2s;
+}
+
+.linkEducation:hover .overlay {
+    opacity: 1;
+}
+
+.overlayText {
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
  .educationBoxImage{
     width: 18%;
     height: 100%;

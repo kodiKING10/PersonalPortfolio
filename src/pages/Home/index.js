@@ -88,8 +88,12 @@ export default function Home() {
 
                 <div className="boxEducation">
                     {certificates.map(certificate => (
-                        <a key={certificate.ID} href={certificate.Image} target="_blank" rel="noopener noreferrer" className="overlay">
+                        <a key={certificate.ID} href={certificate.Image} target="_blank" rel="noopener noreferrer">
                             <div className="linkEducation">
+
+                                <div className="overlay">
+                                    <div className="overlayText"> Open Certificate</div>
+                                </div>
 
                                 <div className="educationBoxImage">
                                 <img src={imgGration} alt="imgGration"></img>
