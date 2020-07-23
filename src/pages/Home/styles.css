@@ -15,6 +15,7 @@
     background-color: #615CFD;
     height: 55px;
     box-shadow: 0px 5px 0px 2px rgba(0, 0, 0, 0.4);
+    z-index: 10;
 }
 
 .listHeader {
@@ -183,12 +184,13 @@
 }
 
 .linkEducation:hover .overlay {
-    opacity: 1;
+    opacity: 0.7;
 }
 
 .overlayText {
-    color: white;
-    font-size: 16px;
+    color: #F0F0F5;
+    font-weight: 500;
+    font-size: 17px;
     position: absolute;
     top: 50%;
     left: 50%;
